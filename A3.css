@@ -1,0 +1,100 @@
+/* Task 1 CSS */
+
+#name_ID {
+    font-size:  20px;
+    background-color :#adadadd7;
+    padding: 30px;
+    text-align: left;
+    border-style:double;
+    border-color: rgb(4, 0, 255);
+    border-width: 5px;
+    width: 550px;
+
+    }
+
+ 
+/* Task 2 CSS */
+
+table {
+    width: 100%;
+    margin-bottom: 20px;
+    border-collapse: collapse;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+
+table th, table td {
+    line-height: 1.5;
+    padding: 15px 10px;
+}
+
+
+table th:first-child {
+    width: 35%;
+}
+
+
+
+
+table  tr:nth-child(odd) {
+    background-color: #eee;
+
+}
+
+
+table  th {
+    background: #333;
+    color: #fff;
+    text-align: left;
+}
+
+
+table  th a {
+    color: #fff;
+    text-decoration: underline;
+}
+
+
+table  td {
+    border: 1px solid #ccc;
+    padding: 5px;
+}
+
+
+/* Task 3 CSS */
+
+.custom-table {
+    width: 100%;
+    border-collapse: collapse;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.custom-table th, .custom-table td {
+    border: 2px solid #ccc;
+    padding: 10px;
+    text-align: left;
+}
+
+.custom-table th {
+    background-color: lightgrey;
+    font-weight: bold;
+    font-size: larger;
+    text-align: center;
+    vertical-align: middle;
+}
+
+.custom-table th:first-child, .custom-table td:first-child {
+    width: 150px;
+    height: 150px;
+    text-align: center;
+    vertical-align: middle;
+}
+
+.custom-table td img {
+    width: 100px;
+}
+
+.custom-table tr:nth-child(odd) {
+    background-color: #eee;
+}
+
